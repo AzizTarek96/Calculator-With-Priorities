@@ -5,16 +5,15 @@
  *      Author: Aziz
  */
 
-#include"../../LIB/STD_TYPES.h"
-#include "../../LIB/BIT_MATH.h"
+#include"../LIB/STD_TYPES.h"
+#include "../LIB/BIT_MATH.h"
 #include"../MCAL/DIO/DIO_interface.h"
 #include "../MCAL/PORT/PORT_interface.h"
 #include"../HAL/CLCD/CLCD_interface.h"
 #include"../HAL/KPD/KPD_interface.h"
 #include<util/delay.h>
 
-u8
-Global_u8PressedKey=0;
+u8 Global_u8PressedKey=0;
 u8 Flag=1;
 u16 Global_CalcArr[15];
 u8 Global_u8Index=0;
