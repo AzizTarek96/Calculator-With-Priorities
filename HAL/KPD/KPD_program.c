@@ -6,9 +6,9 @@
 /*****************************************************************/
 /*****************************************************************/
 
-#include"STD_TYPES.h"
+#include"../../LIB/STD_TYPES.h"
 
-#include"DIO_interface.h"
+#include"../../MCAL/DIO/DIO_interface.h"
 #include "KPD_config.h"
 #include "KPD_interface.h"
 #include "KPD_private.h"

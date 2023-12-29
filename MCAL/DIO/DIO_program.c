@@ -8,8 +8,8 @@
 /*****************************************************************/
 /*****************************************************************/
 
-#include "BIT_MATH.h"
-#include "STD_TYPES.h"
+#include "../../LIB/BIT_MATH.h"
+#include "../../LIB/STD_TYPES.h"
 #include "DIO_interface.h"
 #include "DIO_config.h"
 #include "DIO_private.h"

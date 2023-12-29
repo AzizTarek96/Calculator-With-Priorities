@@ -5,12 +5,12 @@
  *      Author: Aziz
  */
 
-#include"STD_TYPES.h"
-#include "BIT_MATH.h"
-#include"DIO_interface.h"
-#include "PORT_interface.h"
-#include"CLCD_interface.h"
-#include"KPD_interface.h"
+#include"../../LIB/STD_TYPES.h"
+#include "../../LIB/BIT_MATH.h"
+#include"../MCAL/DIO/DIO_interface.h"
+#include "../MCAL/PORT/PORT_interface.h"
+#include"../HAL/CLCD/CLCD_interface.h"
+#include"../HAL/KPD/KPD_interface.h"
 #include<util/delay.h>
 
 u8

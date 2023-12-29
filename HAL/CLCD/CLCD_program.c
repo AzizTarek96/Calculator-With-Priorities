@@ -8,10 +8,10 @@
 /*****************************************************************/
 /*****************************************************************/
 
-#include"STD_TYPES.h"
+#include"../../LIB/STD_TYPES.h"
 #include<util/delay.h>
 
-#include"DIO_interface.h"
+#include"../../MCAL/DIO/DIO_interface.h"
 #include "CLCD_interface.h"
 #include"CLCD_private.h"
 #include"CLCD_config.h"
